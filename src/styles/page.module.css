@@ -1,13 +1,12 @@
-
-.englobage{
+.englobage {
   margin: 0;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   min-height: 100vh;
-  text-align: center;
+  text-align: center; */
 }
 
-.nav{
+.nav {
   background-color: red;
   height: 10%;
 }
@@ -21,29 +20,28 @@
 
 .main {
   height: 80%;
-  background-color: gray;
+  background-color: rgb(129, 171, 12);
 }
 
-.contenaire{
+.contenaire {
   background-color: red;
 }
 
-.footer{
+.footer {
   height: 10%;
   background-color: purple;
 }
 
 /* ajout */
 
-.project__grid {
+/* .project__grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 23.611vw);
   grid-auto-rows: 23.611vw;
   grid-gap: 3vw;
   border-radius: 25px;
   justify-content: center;
-
-}
+} */
 
 /* .project__grid__img{
   width: 100%;
@@ -63,10 +61,10 @@
 
 /* test */
 
-.test{
+.test {
   width: 50%;
 }
 
-.myImage{
+.myImage {
   object-fit: cover;
 }
