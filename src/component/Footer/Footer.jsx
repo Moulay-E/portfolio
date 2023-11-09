@@ -1,21 +1,21 @@
+import Image from 'next/image';
+import logo from '@/asset/img/portfolioImgLogo.png';
+
 export default function Footer() {
   return (
-    <footer className="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+    <footer className="bg-slate-200  shadow dark:bg-gray-900  mt-6">
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
-          <a
-            href="https://flowbite.com/"
-            className="flex items-center mb-4 sm:mb-0"
-          >
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-8 mr-3"
-              alt="Flowbite Logo"
-            />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Flowbite
-            </span>
-          </a>
+          <Image
+            src={logo}
+            className="h-8 mr-3"
+            alt="Flowbite Logo"
+            width={100}
+            height={100}
+          />
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            Portfolio
+          </span>
 
           <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
             {/* <a

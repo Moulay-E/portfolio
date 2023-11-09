@@ -13,7 +13,7 @@ export default function project() {
       <Navbar />
       <div className="h-16"></div>
 
-      <main className={styles.main}>
+      <main className="bg-white">
         <Gallery />
       </main>
       <Footer />

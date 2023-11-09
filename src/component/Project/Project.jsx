@@ -9,7 +9,9 @@ export default function Gallery() {
 
   return (
     <div className="projet">
-      <h2>Projet</h2>
+      <div className="h-12 flex justify-center items-center">
+        <h2>Projet</h2>
+      </div>
       <div className="max-w-full flex justify-center">
         <div className="w-4/5 grid grid-cols-1 md:grid-cols-2 gap-4 grid-auto-rows-min">
           {projectData.map((element, i) => {
@@ -22,9 +24,9 @@ export default function Gallery() {
       </div>
       <button
         onClick={() => setIsVisible(!isVisible)}
-        className="mt-4 px-4 py-2 bg-blue-500 text-white rounded"
+        className="mt-4 px-4 py-2 bg-slate-200 text-black rounded"
       >
-        {isVisible ? 'Cacher' : 'Afficher tous les projet'}
+        {isVisible ? 'Réduire  les projets' : 'Afficher tous les projets'}
       </button>
     </div>
   );

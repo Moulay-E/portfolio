@@ -3,14 +3,8 @@ import { competenceData } from '@/data/competenceData';
 
 export default function Competence() {
   return (
-    <div>
+    <div className="bg-slate-200 rounded-lg">
       <h1>Competences</h1>
-      {/* {projectData.map((element, i) => {
-        if (i < 2 || isVisible) {
-          return <FeatureProject key={i} arr={element} />;
-        }
-        return null;
-      })} */}
       <div className="flex justify-around flex-wrap">
         {competenceData.map((element, i) => {
           return (
@@ -20,8 +14,8 @@ export default function Competence() {
               src={element.img}
               alt="product image"
               //  layout="responsive"
-              width={100}
-              height={100}
+              width={200}
+              height={200}
             />
           );
         })}

@@ -3,7 +3,7 @@ import imagePresentation from '@/asset/img/portraitTest.jpg';
 
 export default function Presentation() {
   return (
-    <div className="max-w-full flex flex-col md:flex-row justify-center ">
+    <div className="max-w-full flex flex-col md:flex-row justify-center bg-slate-200 rounded-lg ">
       <div className="md:w-2/4">
         <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
           <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
@@ -24,7 +24,7 @@ export default function Presentation() {
       </div>
       <div className="md:w-2/4">
         <Image
-          className=" w-full h-full rounded-t-lg"
+          className=" w-full h-full rounded-r-lg"
           src={imagePresentation}
           alt="product image"
           //  layout="responsive"

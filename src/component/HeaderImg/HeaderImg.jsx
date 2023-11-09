@@ -4,7 +4,7 @@ import headerImg from '@/asset/img/headerTest.jpg';
 export default function HeaderImg() {
   return (
     <Image
-      className="myImage rounded-t-lg w-full"
+      className="myImage rounded-lg w-full"
       src={headerImg}
       alt="product image"
       //  layout="responsive"

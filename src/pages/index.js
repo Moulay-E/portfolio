@@ -19,14 +19,14 @@ export default function Home() {
       <Navbar />
       <div className="h-16"></div>
 
-      <main className="h-4/5 flex flex-col items-center bg-orange-600 ">
-        <div className="w-4/5 bg-amber-200 flex flex-col justify-around h-full gap-y-20">
+      <main className="h-4/5 flex flex-col items-center bg-white ">
+        <div className="w-4/5  flex flex-col justify-around h-full gap-y-20">
           <div className="bg-lime-200">
             <HeaderImg />
           </div>
-          <h2 className="bg-red-900">
+          {/* <h2 className="bg-red-900">
             <p>presenttion</p>
-          </h2>
+          </h2> */}
           <Presentation />
 
           <Competence />
