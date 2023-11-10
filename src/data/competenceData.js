@@ -1,5 +1,5 @@
 import nextLogo from '@/asset/img/nextJsLogo.webp';
-import tailwindLogo from '@/asset/img/tailwindLogo.jpg';
+import tailwindLogo from '@/asset/img/tailwindLogo.webp';
 import reactLogo from '@/asset/img/reactLogo.webp';
 import reduxLogo from '@/asset/img/reduxLogo.webp';
 import sassLogo from '@/asset/img/sassLogo.svg';

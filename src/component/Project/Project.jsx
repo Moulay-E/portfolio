@@ -10,7 +10,7 @@ export default function Gallery() {
   return (
     <div className="projet">
       <div className="h-12 flex justify-center items-center">
-        <h2>Projet</h2>
+        <h2 className="text-xl font-semibold">Projet</h2>
       </div>
       <div className="max-w-full flex justify-center">
         <div className="w-4/5 grid grid-cols-1 md:grid-cols-2 gap-4 grid-auto-rows-min">

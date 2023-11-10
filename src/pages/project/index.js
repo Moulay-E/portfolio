@@ -2,7 +2,6 @@
 import './../../app/globals.css';
 import './../../styles/style.css';
 //component
-import styles from './../../styles/page.module.css';
 import Gallery from '@/component/Project/Project';
 import Navbar from '@/component/Navbar/Navbar';
 import Footer from '@/component/Footer/Footer';

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
 
 export default function FeatureProject({ arr }) {
   if (!arr) {
@@ -12,11 +13,22 @@ export default function FeatureProject({ arr }) {
     return null;
   }
 
+  const [showFullDescription, setShowFullDescription] = useState(false);
+
+  const briefDescriptionLength = 100;
+  const briefDescription =
+    arr.description.length > briefDescriptionLength
+      ? ` ${arr.description.substring(0, briefDescriptionLength)}... `
+      : arr.description;
+
   return (
     <div>
-      <Link href={arr.link} target="_blank" rel="noopener noreferrer">
-        {/* <a target="_blank" rel="noopener noreferrer"> */}
-        <div className=" max-w-full flex flex-col bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className=" max-w-full flex flex-col bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <h2 className=" bg-slate-200 border border-gray-300 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+          {' '}
+          {arr.title}{' '}
+        </h2>
+        <Link href={arr.link} target="_blank" rel="noopener noreferrer">
           <Image
             className="myImage rounded-t-lg"
             src={arr.cover}
@@ -25,62 +37,44 @@ export default function FeatureProject({ arr }) {
             width={500}
             height={300}
           />
-          <div className="flex flex-col justify-around flex-grow px-5 pb-5 ">
-            <h5 className=" font-semibold tracking-tight text-gray-900 dark:text-white">
-              {' '}
-              {arr.title}{' '}
-            </h5>
+        </Link>
 
-            <div className="flex items-center justify-between self-center">
-              <span className=" font-bold text-gray-900 dark:text-white">
-                {arr.description}
-              </span>
-            </div>
+        <div className=" pb-0 flex flex-col justify-around flex-grow px-5 pb-5 ">
+          <h3 className="  font-semibold tracking-tight text-gray-900 dark:text-white">
+            {' '}
+            {arr.subtile}{' '}
+          </h3>
 
-            <div className="flex items-center mt-2.5 mb-5 self-center justify-around">
-              <p>
-                {arr.tags.map((tag, index) => (
-                  <span
-                    key={index}
-                    className="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </p>
-            </div>
+          <div className="flex items-center justify-between self-center">
+            <p className=" text-gray-900 text-base font-normal  mt-4 ">
+              {showFullDescription ? arr.description : briefDescription}
+            </p>
+          </div>
+
+          <button
+            onClick={() => setShowFullDescription(!showFullDescription)}
+            className="mt-2 text-blue-600 hover:text-blue-800"
+          >
+            {showFullDescription ? 'Voir moins' : 'Voir plus'}
+          </button>
+
+          <div className="flex items-center mt-2.5 mb-5 self-center justify-around">
+            <p>
+              {arr.tags.map((tag, index) => (
+                <span
+                  key={index}
+                  className="bg-slate-200  text-black text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
+                >
+                  {tag}
+                </span>
+              ))}
+            </p>
           </div>
         </div>
-        {/* </a> */}
-      </Link>
+        <div className="bg-slate-200 mb-0 w-full h-10"></div>
+      </div>
     </div>
   );
 }
 
-{
-  /* <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
-        <Image className="p-8 rounded-t-lg" src= {arr.cover} alt="product image" 
-            width={500} // ou la taille que vous voulez
-          height={300}
-        />
-    </a>
-    <div className="px-5 pb-5">
-        <a href="#">
-            <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"> {arr.title} </h5>
-        </a>
-       
-        <div className="flex items-center justify-between">
-            <span className="text-3xl font-bold text-gray-900 dark:text-white">{arr.description}</span>
-        </div>
-
-        <div className="flex items-center mt-2.5 mb-5">
-        <p>
-                {arr.tags.map((tag, index) => (
-                    <span key={index}>{tag} </span>
-                ))}
-            </p>
-        </div>
-    </div>
-</div> */
-}
+// className="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"

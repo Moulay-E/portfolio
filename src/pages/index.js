@@ -24,16 +24,12 @@ export default function Home() {
           <div className="bg-lime-200">
             <HeaderImg />
           </div>
-          {/* <h2 className="bg-red-900">
-            <p>presenttion</p>
-          </h2> */}
+
           <div id="presentation"></div>
           <Presentation />
           <div id="competence"></div>
           <Competence />
 
-          {/* <Gallery /> */}
-          {/* <LinkToProject arr={projectData[1]} /> */}
           <PortfolioBtn />
         </div>
       </main>

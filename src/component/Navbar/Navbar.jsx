@@ -1,8 +1,6 @@
 'use client';
 import Link from 'next/link';
 import { useState } from 'react';
-import Image from 'next/image';
-import logo from '@/asset/img/portfolioImgLogo.png';
 
 export default function Navbar() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -14,13 +12,6 @@ export default function Navbar() {
     <nav className="top-0 fixed w-full  border-gray-200 bg-slate-200 dark:bg-gray-800 dark:border-gray-700 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link href="/" className="flex items-center">
-          {/* <Image
-            src={logo}
-            className="h-8 mr-3"
-            alt="Flowbite Logo"
-            width={100}
-            height={100}
-          /> */}
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             Moulay Edda
           </span>
@@ -51,7 +42,6 @@ export default function Navbar() {
             />
           </svg>
         </button>
-        {/* <div className="hidden w-full md:block md:w-auto" id="navbar-solid-bg"> */}
         <div
           className={`${
             isMenuOpen ? 'block' : 'hidden'
@@ -68,9 +58,6 @@ export default function Navbar() {
               >
                 Home
               </Link>
-              {/* <a href="#" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">
-            Home
-          </a> */}
             </li>
             <li>
               <Link
@@ -95,11 +82,8 @@ export default function Navbar() {
                 href="/project"
                 className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                Projects
+                Projets
               </Link>
-              {/* <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-          Pricing
-          </a> */}
             </li>
             <li>
               <Link

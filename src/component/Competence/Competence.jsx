@@ -4,9 +4,8 @@ import { competenceData } from '@/data/competenceData';
 export default function Competence() {
   return (
     <div className="bg-slate-200 rounded-lg">
-      <h1>Mes Competences</h1>
+      <h2 className="font-semibold">Mes Competences</h2>
       <div className="grid grid-cols-2 gap-4 p-4 md:grid-cols-5">
-        {/* "flex justify-around flex-wrap" */}
         {competenceData.map((element, i) => {
           return (
             <div className="h-full flex justify-center items-center " key={i}>
