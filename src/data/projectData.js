@@ -13,7 +13,7 @@ export const projectData = [
     description:
       "Dans ce projet, j'ai développé un système robuste de gestion des connexions utilisateurs, permettant une interaction fluide et sécurisée avec leurs comptes. J'ai également implémenté une fonctionnalité permettant aux utilisateurs de personnaliser leur expérience en modifiant leur pseudonyme. Parallèlement, j'ai conçu et intégré de nouvelles routes API dédiées à la gestion des transactions, posant ainsi les fondations pour une extension future des fonctionnalités du système.",
     cover: argentBankImg,
-    link: 'lihttps://wondrous-fox-2ed8e0.netlify.app/ens',
+    link: 'https://wondrous-fox-2ed8e0.netlify.app/',
     tags: ['React', 'Js', 'Redux', 'Api'],
   },
   {
