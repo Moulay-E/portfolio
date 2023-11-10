@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import portfolioBtnImg from './../../asset/img/portfolioTest.jpg';
+import portfolioBtnImg from './../../asset/img/portfolioImgCover.png';
 import Image from 'next/image';
 
 export default function PortfolioBtn() {
@@ -16,8 +16,8 @@ export default function PortfolioBtn() {
           src={portfolioBtnImg}
           alt="product image"
           //  layout="responsive"
-          width={100}
-          height={100}
+          width={500}
+          height={300}
         />
       </Link>
       <div className="flex flex-col justify-around flex-grow px-5 pb-5 ">

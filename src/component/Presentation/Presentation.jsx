@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import imagePresentation from '@/asset/img/portraitTest.jpg';
+import imagePresentation from '@/asset/img/rougeCover.jpg';
 
 export default function Presentation() {
   return (
@@ -28,8 +28,8 @@ export default function Presentation() {
           src={imagePresentation}
           alt="product image"
           //  layout="responsive"
-          width={200}
-          height={200}
+          width={500}
+          height={300}
         />
       </div>
     </div>

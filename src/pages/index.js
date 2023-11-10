@@ -27,8 +27,9 @@ export default function Home() {
           {/* <h2 className="bg-red-900">
             <p>presenttion</p>
           </h2> */}
+          <div id="presentation"></div>
           <Presentation />
-
+          <div id="competence"></div>
           <Competence />
 
           {/* <Gallery /> */}

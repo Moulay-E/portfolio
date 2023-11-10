@@ -22,8 +22,8 @@ export default function FeatureProject({ arr }) {
             src={arr.cover}
             alt="product image"
             //  layout="responsive"
-            width={100}
-            height={100}
+            width={500}
+            height={300}
           />
           <div className="flex flex-col justify-around flex-grow px-5 pb-5 ">
             <h5 className=" font-semibold tracking-tight text-gray-900 dark:text-white">
