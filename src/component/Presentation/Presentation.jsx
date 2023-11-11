@@ -25,9 +25,7 @@ export default function Presentation() {
         <Image
           className=" w-full h-full rounded-r-lg object-cover"
           src={imagePresentation}
-          alt="product image"
-          // layout="responsive"
-          // objectFit="cover"
+          alt="photo de moi et mon chat "
           width={500}
           height={300}
         />

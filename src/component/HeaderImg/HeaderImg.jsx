@@ -7,7 +7,7 @@ export default function HeaderImg() {
       <Image
         className="w-full h-full  object-cover rounded-lg "
         src={headerImg}
-        alt="product image"
+        alt="image d'un ideal de bureau pour creatif web"
         width={500}
         height={200}
       />

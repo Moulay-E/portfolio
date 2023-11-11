@@ -14,7 +14,7 @@ export default function PortfolioBtn() {
         <Image
           className="myImage "
           src={portfolioBtnImg}
-          alt="product image"
+          alt="different projet et un liens vers mes projets"
           //  layout="responsive"
           width={500}
           height={300}
