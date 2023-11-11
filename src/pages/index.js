@@ -20,14 +20,12 @@ export default function Home() {
       <div className="h-16"></div>
 
       <main className="h-4/5 flex flex-col items-center bg-white ">
-        <div className="w-4/5  flex flex-col justify-around h-full gap-y-20">
-          <div className="bg-lime-200">
-            <HeaderImg />
-          </div>
+        <div className="w-4/5  flex flex-col justify-around h-full gap-y-16">
+          <HeaderImg />
 
-          <div id="presentation"></div>
+          {/* <div id="presentation"></div> */}
           <Presentation />
-          <div id="competence"></div>
+          {/* <div id="competence"></div> */}
           <Competence />
 
           <PortfolioBtn />

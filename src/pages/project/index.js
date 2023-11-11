@@ -12,7 +12,7 @@ export default function project() {
       <Navbar />
       <div className="h-16"></div>
 
-      <main className="bg-white">
+      <main className="bg-white mt-16">
         <Gallery />
       </main>
       <Footer />

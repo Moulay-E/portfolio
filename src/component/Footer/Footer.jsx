@@ -8,7 +8,7 @@ import githubIcon from '@/asset/img/githubIcon.png';
 export default function Footer() {
   return (
     <footer
-      className="bg-slate-200  shadow dark:bg-gray-900  mt-6"
+      className="bg-slate-200  shadow dark:bg-gray-900  mt-16"
       id="contact"
     >
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">

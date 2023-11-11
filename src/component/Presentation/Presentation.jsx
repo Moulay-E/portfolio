@@ -5,19 +5,19 @@ export default function Presentation() {
   return (
     <div className="max-w-full flex flex-col md:flex-row justify-center bg-slate-200 rounded-lg ">
       <div className="md:w-2/4 flex flex-col justfy-center items-center">
-        <div className="w-3/4">
+        <div className="w-3/4" id="presentation">
           <h2 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
             <span className="">A propos</span>
           </h2>
           <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
-            Formée intensivement pendant 9 mois chez OpenCLassrooms, j'ai pu me
-            familiariser, entre autres, avec React, Sass, Node.js et Redux pour
-            créer des applications web performantes. Je reste toujours motivée à
-            participer à de nouveaux projets, à apprendre de nouvelles
-            technologies et à travailler avec des esprits créatifs. N'hésitez
-            pas à parcourir mon portfolio pour découvrir mon univers. Si vous
-            souhaitez collaborer ou simplement discuter de projets, je serais
-            ravie d'échanger avec vous !
+            Bienvenue sur mon portfolio de développeur web ! Formée
+            intensivement pendant 9 mois chez OpenClassrooms, je maîtrise React,
+            Sass, Node.js et Redux, et je suis passionnée par la création
+            d'applications web innovantes. Découvrez mes projets variés et
+            contactez-moi pour des collaborations créatives. Toujours prête à
+            explorer de nouvelles technologies, je suis ouverte à des
+            opportunités passionnantes pour faire évoluer mon parcours
+            professionnel.
           </p>
         </div>
       </div>

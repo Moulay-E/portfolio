@@ -3,14 +3,14 @@ import headerImg from '@/asset/img/headerImgCover.jpg';
 
 export default function HeaderImg() {
   return (
-    <Image
-      className="myImage rounded-lg w-full"
-      src={headerImg}
-      alt="product image"
-      //  layout="fill"
-      width={500}
-      height={300}
-      //640 × 479 px
-    />
+    <div className="h-80 w-full mt-16 ">
+      <Image
+        className="w-full h-full  object-cover rounded-lg "
+        src={headerImg}
+        alt="product image"
+        width={500}
+        height={200}
+      />
+    </div>
   );
 }
