@@ -32,7 +32,7 @@ export default function FeatureProject({ arr }) {
           <Image
             className="myImage rounded-t-lg"
             src={arr.cover}
-            alt="product image"
+            alt="une image d'un de mes projet et sont liens"
             //  layout="responsive"
             width={500}
             height={300}

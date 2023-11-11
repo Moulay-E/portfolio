@@ -13,8 +13,7 @@ export default function Competence() {
                 key={i}
                 className="w-2/4 rounded-lg"
                 src={element.img}
-                alt="product image"
-                //  layout="responsive"
+                alt="technologie web image"
                 width={200}
                 height={200}
               />
