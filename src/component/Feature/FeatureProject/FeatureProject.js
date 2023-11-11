@@ -23,7 +23,7 @@ export default function FeatureProject({ arr }) {
 
   return (
     <div>
-      <div className=" max-w-full flex flex-col bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className=" max-w-full flex flex-col bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700">
         <h2 className=" bg-slate-200 border border-gray-300 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
           {' '}
           {arr.title}{' '}

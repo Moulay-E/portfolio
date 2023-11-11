@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import portfolioBtnImg from './../../asset/img/portfolioImgCover.png';
+import portfolioBtnImg from './../../asset/img/portfolioImgCover.webp';
 import Image from 'next/image';
 
 export default function PortfolioBtn() {

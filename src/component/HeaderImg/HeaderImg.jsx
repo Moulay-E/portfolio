@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import headerImg from '@/asset/img/headerImgCover.jpg';
+import headerImg from '@/asset/img/headerImgCover.webp';
 
 export default function HeaderImg() {
   return (

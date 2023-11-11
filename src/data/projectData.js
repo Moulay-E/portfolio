@@ -1,10 +1,9 @@
-import ChatIcon from '../asset/img/blueCatCuteFaceMini.jpg';
-import argentBankImg from '@/asset/img/screenShotArgentBank.png';
-import eventImg from '@/asset/img/screenShot724Event.png';
-import ninaIMg from '@/asset/img/screenShotNina.png';
-import kasaImg from '@/asset/img/screenShotKasa.png';
-import ohMyFoodImg from '@/asset/img/screenShotohMyFood.png';
-import bookiImg from '@/asset/img/screenShotBooki.png';
+import argentBankImg from '@/asset/img/screenShotArgentBank.webp';
+import eventImg from '@/asset/img/screenShot724Event.webp';
+import ninaIMg from '@/asset/img/screenShotNina.webp';
+import kasaImg from '@/asset/img/screenShotKasa.webp';
+import ohMyFoodImg from '@/asset/img/screenShotohMyFood.webp';
+import bookiImg from '@/asset/img/screenShotBooki.webp';
 
 export const projectData = [
   {

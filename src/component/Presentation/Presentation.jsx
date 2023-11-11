@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import imagePresentation from '@/asset/img/rougeCover.jpg';
+import imagePresentation from '@/asset/img/rougeCover.webp';
 
 export default function Presentation() {
   return (
