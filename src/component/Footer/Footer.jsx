@@ -21,7 +21,7 @@ export default function Footer() {
             height={100}
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Portfolio
+            Contact
           </span>
 
           <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
