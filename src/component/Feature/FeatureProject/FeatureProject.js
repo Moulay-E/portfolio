@@ -39,7 +39,7 @@ export default function FeatureProject({ arr }) {
         </Link>
 
         <div className=" pb-0 flex flex-col justify-around flex-grow px-5 pb-5 ">
-          <h3 className="  font-semibold tracking-tight text-gray-900 dark:text-white">
+          <h3 className=" min-height font-semibold tracking-tight text-gray-900 dark:text-white">
             {' '}
             {arr.subtile}{' '}
           </h3>
