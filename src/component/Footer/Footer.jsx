@@ -7,65 +7,58 @@ import githubIcon from '@/asset/img/githubIcon.png';
 
 export default function Footer() {
   return (
-    <footer
-      className="bg-slate-200  shadow dark:bg-gray-900  mt-16"
-      id="contact"
-    >
+    <footer className="colorGris  0  mt-16" id="contact">
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <div className="sm:flex sm:items-center sm:justify-between">
-          <Image
-            src={logo}
-            className="h-8 mr-3"
-            alt="Flowbite Logo"
-            width={100}
-            height={100}
-          />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Contact
+        <div className="sm:flex sm:items-center sm:justify-between mx-12">
+          <span className="font-poppins self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            Réseaux
           </span>
 
-          <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
+          <div className="  flex mt-4 space-x-5 justify-center sm:mt-0 gap-6 ">
             <Link
-              href="https://www.linkedin.com/in/moulay-edda-a94604293/"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              href="#"
+              className="h-[35px] w-[35px] border-2 bg-white text-gray-500 hover:text-gray-900 dark:hover:text-white transition-transform hover:scale-110"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image
                 src={linkedinIcon}
+                className="w-full h-full  object-cover "
                 alt="linkedin logo and link"
-                width={24}
-                height={24}
+                width={35}
+                height={35}
               />
               <span className="sr-only">linkedin</span>
             </Link>
             <Link
-              href="mailto:ayoub.edda2@gmail.com"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              href="#"
+              className=" h-[35px] w-[35px] border-2 bg-white text-gray-500 hover:text-gray-900 dark:hover:text-white transition-transform hover:scale-110"
               // target="_blank"
               // rel="noopener noreferrer"
             >
               <Image
-                src={mailIcon}
+                src={githubIcon}
                 alt="Mail logo and link"
-                width={24}
-                height={24}
+                className="w-full h-full  object-cover "
+                width={35}
+                height={35}
               />
-              <span className="sr-only">mail</span>
+              <span className="sr-only">github</span>
             </Link>
             <Link
-              href="https://github.com/Moulay-E"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              href="#"
+              className=" h-[35px] w-[35px] text-gray-500 border-2 bg-white transition-transform hover:scale-110"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image
-                src={githubIcon}
+                src={mailIcon}
                 alt="Github logo and link"
-                width={24}
-                height={24}
+                className="w-full h-full  object-cover "
+                width={35}
+                height={35}
               />
-              <span className="sr-only">GitHub account</span>
+              <span className="sr-only">eMail account</span>
             </Link>
           </div>
         </div>

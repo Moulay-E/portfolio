@@ -23,8 +23,8 @@ export default function FeatureProject({ arr }) {
 
   return (
     <div>
-      <div className=" max-w-full flex flex-col bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700">
-        <h2 className=" bg-slate-200 border border-gray-300 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+      <div className=" max-w-full h-full flex flex-col bg-white border rounded-lg shadow border-gray-700">
+        <h2 className=" bg-slate-200 border border-gray-300 text-xl font-semibold tracking-tight text-gray-900 ">
           {' '}
           {arr.title}{' '}
         </h2>
@@ -39,7 +39,7 @@ export default function FeatureProject({ arr }) {
         </Link>
 
         <div className=" pb-0 flex flex-col justify-around flex-grow px-5 pb-5 ">
-          <h3 className=" min-height font-semibold tracking-tight text-gray-900 dark:text-white">
+          <h3 className=" min-height font-semibold tracking-tight text-gray-900 ">
             {' '}
             {arr.subtile}{' '}
           </h3>
@@ -62,7 +62,7 @@ export default function FeatureProject({ arr }) {
               {arr.tags.map((tag, index) => (
                 <span
                   key={index}
-                  className="bg-slate-200  text-black text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
+                  className=" text-black text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full bg-custom-gradient text-white"
                 >
                   {tag}
                 </span>

@@ -8,12 +8,14 @@ export default function Gallery() {
   const [isVisible, setIsVisible] = useState(false);
 
   return (
-    <div className="projet">
+    <div className="projet" id="project">
       <div className="h-12 flex justify-center items-center">
-        <h2 className="text-xl font-semibold">Projet</h2>
+        <h2 className="text-xl font-extrabold  md:text-2xl lg:text-3xl font-poppins">
+          Projet
+        </h2>
       </div>
       <div className="max-w-full flex justify-center">
-        <div className="w-4/5 grid grid-cols-1 md:grid-cols-2 gap-4 grid-auto-rows-min">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 auto-rows-max">
           {projectData.map((element, i) => {
             if (i < 2 || isVisible) {
               return <FeatureProject key={i} arr={element} />;
@@ -24,7 +26,7 @@ export default function Gallery() {
       </div>
       <button
         onClick={() => setIsVisible(!isVisible)}
-        className="mt-4 px-4 py-2 bg-slate-200 text-black rounded"
+        className="font-poppins mt-4 px-4 py-2 bg-slate-200 text-white rounded bg-custom-gradient transition-transform hover:scale-105 "
       >
         {isVisible ? 'Réduire  les projets' : 'Afficher tous les projets'}
       </button>
