@@ -30,7 +30,7 @@ export default function FeatureProject({ arr }) {
         </h2>
         <Link href={arr.link} target="_blank" rel="noopener noreferrer">
           <Image
-            className="myImage rounded-t-lg"
+            className="myImage rounded-t-lg "
             src={arr.cover}
             alt="une image d'un de mes projet et le liens vers celui ci"
             width={500}
@@ -62,7 +62,7 @@ export default function FeatureProject({ arr }) {
               {arr.tags.map((tag, index) => (
                 <span
                   key={index}
-                  className=" text-black text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full bg-custom-gradient text-white"
+                  className=" text-black text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full bg-slate-600 text-white"
                 >
                   {tag}
                 </span>

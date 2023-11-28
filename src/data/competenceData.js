@@ -11,43 +11,44 @@ import vscodeLogo from '@/asset/img/vscodeLogo.webp';
 
 export const competenceData = [
   {
-    title: 'test',
+    title: 'nextJs',
     img: nextLogo,
+    alt: 'next js icon',
   },
   {
-    title: 'test',
+    title: 'tailwind',
     img: tailwindLogo,
   },
   {
-    title: 'test',
+    title: 'React',
     img: reactLogo,
   },
   {
-    title: 'test',
+    title: 'Redux',
     img: reduxLogo,
   },
   {
-    title: 'test',
+    title: 'Sass',
     img: sassLogo,
   },
   {
-    title: 'test',
+    title: 'NodeJs',
     img: nodejsLogo,
   },
   {
-    title: 'test',
+    title: 'Figma',
     img: figmaLogo,
   },
   {
-    title: 'test',
+    title: 'GitHub',
     img: githubLogo,
   },
   {
-    title: 'test',
+    title: 'Responsive',
     img: responsiveLogo,
   },
   {
-    title: 'test',
+    title: 'Vscode',
     img: vscodeLogo,
   },
 ];

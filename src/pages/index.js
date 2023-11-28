@@ -7,9 +7,9 @@ import './../styles/style.css';
 import './../app/globals.css';
 import PortfolioBtn from '@/component/PortfolioBtn/PortfolioBtn';
 import HeaderImg from '@/component/HeaderImg/HeaderImg';
-import Competence from '@/component/Competence/Competence';
 import Gallery from '@/component/Project/Project';
 import ContactForm from '@/component/FormSpree/FormSpree';
+import MineCarrousel from '@/component/MineCarrousel/MineCarrousel';
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
         <div className="w-4/5  flex flex-col justify-around h-full gap-y-16">
           <HeaderImg />
           <Presentation />
-          <Competence />
+          <MineCarrousel />
           <Gallery />
           <ContactForm />
         </div>

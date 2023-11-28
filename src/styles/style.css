@@ -37,3 +37,20 @@
     #1f2225
   );
 }
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animateIcon {
+  animation: 6s slide infinite linear;
+}
+
+.paused:hover {
+  animation-play-state: paused;
+}

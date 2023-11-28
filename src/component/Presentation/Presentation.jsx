@@ -24,7 +24,7 @@ export default function Presentation() {
       </div>
       <div className="md:w-2/4">
         <Image
-          className=" w-full h-full rounded-r-lg object-cover"
+          className=" w-full h-full md:rounded-r-lg object-cover md:mt-0 mt-10 rounded-lg"
           src={imagePresentation}
           alt="photo de moi et mon chat "
           width={500}
